@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Deep learning resources"
-date:   2018-08-19 17:28:34 -0500
-categories: docs others
+date:   2018-08-20 17:28:34 -0500
+categories: others
 ---
 
 # Commercial software
