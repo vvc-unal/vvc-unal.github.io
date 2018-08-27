@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Thesis"
+date:   2018-08-26 19:08:00 -0500
+categories: docs
+---
+
+[Definition of robustness][robustness]
+
+Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo.
+
+
+[robustness]: https://drive.google.com/file/d/1BAOztft7zEb66gsbxU6F2e7b8JTXoic-/view?usp=sharing
