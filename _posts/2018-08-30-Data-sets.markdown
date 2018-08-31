@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Data sets"
+date:   2018-08-30 00:00:00 -0500
+categories: dev
+permalink: /:categories/:title.html
+---
+
+## Bogotá videos
+
+[Videos from Bogotá][bog_mega]
+
+## Tagging tools
+
+### [VoTT: Visual Object Tagging Tool][vott]
+
+It works on mp4 videos only. You can use ffmpeg to convert videos from other formats.
+
+{% highlight bash %}
+
+ffmpeg -i 910-911.avi 910-911.mp4
+
+{% endhighlight %}
+
+
+[bog_mega]: https://mega.nz/#F!2lwy0QxJ!MCx5X7fKRqJqhj99QJNRog
+[vott]: https://github.com/Microsoft/VoTT
