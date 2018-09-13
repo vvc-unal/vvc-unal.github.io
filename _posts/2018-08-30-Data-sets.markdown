@@ -1,14 +1,36 @@
 ---
 layout: post
 title:  "Data sets"
-date:   2018-08-30 00:00:00 -0500
-categories: dev
+date:   2018-09-12 12:00:00 -0500
+categories: docs dev
 permalink: /:categories/:title.html
 ---
+
+* TOC
+{:toc}
 
 ## Bogotá videos
 
 [Videos from Bogotá][bog_mega]
+
+## Image data sets
+
+### [TRANCOS][trancos]
+
+Data set with images from "Dirección General de Tráfico de España". The images come from real cameras, but they are separated in time from several minutes.
+
+| Original | Annotation |
+|-------|--------|
+| ![](/assets/img/trancos_1.jpg) | ![](/assets/img/trancos_1_dots.png) |
+
+
+
+You can access directly to the images from here:
+* <http://www.dgt.es/es/el-trafico/camaras-de-trafico/>
+* <http://infocar.dgt.es/etraffic/data/camaras/872.jpg>
+* <http://infocar.dgt.es/etraffic/data/camaras/44.jpg>
+* <http://infocar.dgt.es/etraffic/data/camaras/11.jpg>
+* <http://infocar.dgt.es/etraffic/data/camaras/161042.jpg>
 
 ## Tagging tools
 
@@ -25,3 +47,4 @@ ffmpeg -i 910-911.avi 910-911.mp4
 
 [bog_mega]: https://mega.nz/#F!2lwy0QxJ!MCx5X7fKRqJqhj99QJNRog
 [vott]: https://github.com/Microsoft/VoTT
+[trancos]: http://agamenon.tsc.uah.es/Personales/rlopez/data/trancos/
