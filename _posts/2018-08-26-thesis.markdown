@@ -1,14 +1,35 @@
 ---
 layout: post
 title:  "Thesis"
-date:   2018-08-26 19:08:00 -0500
+date:   2018-09-14 00:00:00 -0500
 categories: docs
 permalink: /:categories/:title.html
 ---
 
-[Definition of robustness][robustness]
+* TOC
+{:toc}
 
-Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo.
+## Objectives
 
+**General objective**
+
+*Desarrollar un sistema para el conteo de vehículos que utilice como entrada secuencias de vídeo y esté basado en técnicas de visión por computador y aprendizaje de máquina*.
+
+**Specific objectives**
+
+1. *Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo*.[Definition of robustness][robustness]
+
+2. *Diseñar e implementar un método para la detección de vehículos en imágenes tomadas de cámaras de vigilancia*.
+
+3. *Diseñar e implementar un método para el seguimiento de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia*.
+
+4. *Desarrollar un sistema de software que integre los métodos de detección y seguimiento para el conteo de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia*.
+
+5. *Evaluar el sistema en un conjunto de videos recolectados desde cámaras de vigilancia de la Secretaría de Movilidad de Bogotá*.
+
+## Papers
+
+[State of art][vvc-2018-2s]
 
 [robustness]: https://drive.google.com/file/d/1BAOztft7zEb66gsbxU6F2e7b8JTXoic-/view?usp=sharing
+[vvc-2018-2s]: https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing

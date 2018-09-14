@@ -9,21 +9,22 @@ permalink: /:categories/:title.html
 * TOC
 {:toc}
 
+
 ## Bogotá videos
 
 [Videos from Bogotá][bog_mega]
 
+
 ## Image data sets
 
-### [TRANCOS][trancos]
 
-Data set with images from "Dirección General de Tráfico de España". The images come from real cameras, but they are separated in time from several minutes.
+### [TRANCOS 2015][trancos]
+
+Data set with images from "Dirección General de Tráfico de España". The images come from real cameras, but they are separated in time from several minutes. The annotations are not bounding boxes, just one dot for vehicle.
 
 | Original | Annotation |
 |-------|--------|
 | ![](/assets/img/trancos_1.jpg) | ![](/assets/img/trancos_1_dots.png) |
-
-
 
 You can access directly to the images from here:
 * <http://www.dgt.es/es/el-trafico/camaras-de-trafico/>
@@ -32,7 +33,9 @@ You can access directly to the images from here:
 * <http://infocar.dgt.es/etraffic/data/camaras/11.jpg>
 * <http://infocar.dgt.es/etraffic/data/camaras/161042.jpg>
 
+
 ## Tagging tools
+
 
 ### [VoTT: Visual Object Tagging Tool][vott]
 
