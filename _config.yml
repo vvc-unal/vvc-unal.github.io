@@ -16,8 +16,7 @@
 title: Visual Vehicle Counting with machine learning
 email: jsnavarroa@unal.edu.co
 description: >- # this means to ignore newlines until "baseurl:"
-  Visual vehicle counting applied research project, based on computer visión and
-   machine learning techniques. Object detection and tracking from videos.
+  Visual vehicle counting applied research project, based on machine learning and computer visión techniques. Object detection and tracking from videos.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  vvc-unal

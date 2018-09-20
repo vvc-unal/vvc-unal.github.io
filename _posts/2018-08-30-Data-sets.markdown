@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data sets"
-date:   2018-09-12 12:00:00 -0500
+date:   2018-09-20 00:00:00 -0500
 categories: docs dev
 permalink: /:categories/:title.html
 ---
@@ -12,7 +12,15 @@ permalink: /:categories/:title.html
 
 ## Bogotá videos
 
-[Videos from Bogotá][bog_mega]
+Videos obtained from the Undersecretary of Mobility Services.
+
+1. [Videos of Bogotá][bog_mega]
+1. [Cameras location][sdm-cameras]
+
+Other links:
+* [SDM Organization chart][sdm-organization]
+* [Directorio Servidores Públicos y Contratistas del Distrito ][sideap]
+* [Directorio funcionarios SDM][sdm-officials]
 
 
 ## Image data sets
@@ -51,3 +59,7 @@ ffmpeg -i 910-911.avi 910-911.mp4
 [bog_mega]: https://mega.nz/#F!2lwy0QxJ!MCx5X7fKRqJqhj99QJNRog
 [vott]: https://github.com/Microsoft/VoTT
 [trancos]: http://agamenon.tsc.uah.es/Personales/rlopez/data/trancos/
+[sdm-organization]: http://www.movilidadbogota.gov.co/web/organigrama
+[sideap]: https://sideap.serviciocivil.gov.co/sideap/faces/directorioServidores.xhtml?idEntidad=113
+[sdm-cameras]: http://www.simur.gov.co/SimurMapaMovilidadWA/mapamovilidad
+[sdm-officials]: http://www.movilidadbogota.gov.co/web/sites/default/files/DIRECTORIO%20DE%20FUNCIONARIOS%2017042018%20V.6.pdf
