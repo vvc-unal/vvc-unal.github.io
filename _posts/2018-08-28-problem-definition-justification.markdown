@@ -3,7 +3,6 @@ layout: post
 title:  "Problem definition and justification"
 date:   2018-08-28 00:00:00 -0500
 categories: docs
-permalink: /:categories/:title.html
 ---
 # Problem definition
 
