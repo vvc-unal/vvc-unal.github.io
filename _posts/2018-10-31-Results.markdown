@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Results (so far)"
+date:   2018-10-31 12:00:00 -0500
+categories: docs dev
+---
+
+* TOC
+{:toc}
+
+
+## 2018-10-31
+
+Annotated videos using Faster R-CNN only.
+
+### CL 26 X CRA 33 600-610
+
+{% youtube 8t2GA3wEhd4 560 315 %}
+
+### CL 53 X CRA 60 910-911
+
+{% youtube AyXqQw5c6RE %}
+
+### CRA 7 X CL 45 955-959
