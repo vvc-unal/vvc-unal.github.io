@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-31T19:57:30-05:00</updated><id>http://localhost:4000/</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer visión techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://localhost:4000/docs/dev/Results" rel="alternate" type="text/html" title="Results (so far)" /><published>2018-10-31T12:00:00-05:00</published><updated>2018-10-31T12:00:00-05:00</updated><id>http://localhost:4000/docs/dev/Results</id><content type="html" xml:base="http://localhost:4000/docs/dev/Results">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#2018-10-31&quot; id=&quot;markdown-toc-2018-10-31&quot;&gt;2018-10-31&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#cl-26-x-cra-33-600-610&quot; id=&quot;markdown-toc-cl-26-x-cra-33-600-610&quot;&gt;CL 26 X CRA 33 600-610&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cl-53-x-cra-60-910-911&quot; id=&quot;markdown-toc-cl-53-x-cra-60-910-911&quot;&gt;CL 53 X CRA 60 910-911&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cra-7-x-cl-45-955-959&quot; id=&quot;markdown-toc-cra-7-x-cl-45-955-959&quot;&gt;CRA 7 X CL 45 955-959&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2018-10-31&quot;&gt;2018-10-31&lt;/h2&gt;
+
+&lt;p&gt;Annotated videos using Faster R-CNN only.&lt;/p&gt;
+
+&lt;h3 id=&quot;cl-26-x-cra-33-600-610&quot;&gt;CL 26 X CRA 33 600-610&lt;/h3&gt;
+
+&lt;div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8t2GA3wEhd4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;cl-53-x-cra-60-910-911&quot;&gt;CL 53 X CRA 60 910-911&lt;/h3&gt;
+
+&lt;div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AyXqQw5c6RE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;cra-7-x-cl-45-955-959&quot;&gt;CRA 7 X CL 45 955-959&lt;/h3&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Deep learning resources</title><link href="http://localhost:4000/others/resources" rel="alternate" type="text/html" title="Deep learning resources" /><published>2018-10-05T00:28:34-05:00</published><updated>2018-10-05T00:28:34-05:00</updated><id>http://localhost:4000/others/resources</id><content type="html" xml:base="http://localhost:4000/others/resources">&lt;!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#commercial-software&quot;&gt;Commercial software&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- /TOC --&gt;
+
+&lt;h1 id=&quot;commercial-software&quot;&gt;Commercial software&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/rekognition/video-features/&quot;&gt;Amazon Rekognition video&lt;/a&gt;: It’s a service for object and face detection and recognition on videos. Also it can track people. To use the service you need a credit card, even for the free tier. &lt;a href=&quot;https://techcrunch.com/2018/07/26/aclu-says-amazon-facial-recognition-associated-congress-members-with-mugshots/&quot;&gt;ACLU says Amazon facial recognition associated Congress members with mugshots.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://software.intel.com/openvino-toolkit&quot;&gt;Intel OpenVINO&lt;/a&gt; (formerly the Intel Computer Vision SDK), is a toolkit that enables Deep Learning inference for Computer Vision. It only works on CPU, GPU an FPGA Intel hardware.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Data sets</title><link href="http://localhost:4000/docs/dev/Data-sets" rel="alternate" type="text/html" title="Data sets" /><published>2018-09-20T00:00:00-05:00</published><updated>2018-09-20T00:00:00-05:00</updated><id>http://localhost:4000/docs/dev/Data-sets</id><content type="html" xml:base="http://localhost:4000/docs/dev/Data-sets">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#bogotá-videos&quot; id=&quot;markdown-toc-bogotá-videos&quot;&gt;Bogotá videos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#image-data-sets&quot; id=&quot;markdown-toc-image-data-sets&quot;&gt;Image data sets&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#trancos-2015&quot; id=&quot;markdown-toc-trancos-2015&quot;&gt;TRANCOS 2015&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tagging-tools&quot; id=&quot;markdown-toc-tagging-tools&quot;&gt;Tagging tools&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#vott-visual-object-tagging-tool&quot; id=&quot;markdown-toc-vott-visual-object-tagging-tool&quot;&gt;VoTT: Visual Object Tagging Tool&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bogotá-videos&quot;&gt;Bogotá videos&lt;/h2&gt;
+
+&lt;p&gt;Videos obtained from the Undersecretary of Mobility Services.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mega.nz/#F!2lwy0QxJ!MCx5X7fKRqJqhj99QJNRog&quot;&gt;Videos of Bogotá&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.simur.gov.co/SimurMapaMovilidadWA/mapamovilidad&quot;&gt;Cameras location&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Other links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.movilidadbogota.gov.co/web/organigrama&quot;&gt;SDM Organization chart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sideap.serviciocivil.gov.co/sideap/faces/directorioServidores.xhtml?idEntidad=113&quot;&gt;Directorio Servidores Públicos y Contratistas del Distrito &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.movilidadbogota.gov.co/web/sites/default/files/DIRECTORIO%20DE%20FUNCIONARIOS%2017042018%20V.6.pdf&quot;&gt;Directorio funcionarios SDM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;image-data-sets&quot;&gt;Image data sets&lt;/h2&gt;
+
+&lt;h3 id=&quot;trancos-2015&quot;&gt;&lt;a href=&quot;http://agamenon.tsc.uah.es/Personales/rlopez/data/trancos/&quot;&gt;TRANCOS 2015&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Data set with images from “Dirección General de Tráfico de España”. The images come from real cameras, but they are separated in time from several minutes. The annotations are not bounding boxes, just one dot for vehicle.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Original&lt;/th&gt;
+      &lt;th&gt;Annotation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/img/trancos_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/img/trancos_1_dots.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You can access directly to the images from here:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dgt.es/es/el-trafico/camaras-de-trafico/&quot;&gt;http://www.dgt.es/es/el-trafico/camaras-de-trafico/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://infocar.dgt.es/etraffic/data/camaras/872.jpg&quot;&gt;http://infocar.dgt.es/etraffic/data/camaras/872.jpg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://infocar.dgt.es/etraffic/data/camaras/44.jpg&quot;&gt;http://infocar.dgt.es/etraffic/data/camaras/44.jpg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://infocar.dgt.es/etraffic/data/camaras/11.jpg&quot;&gt;http://infocar.dgt.es/etraffic/data/camaras/11.jpg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://infocar.dgt.es/etraffic/data/camaras/161042.jpg&quot;&gt;http://infocar.dgt.es/etraffic/data/camaras/161042.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tagging-tools&quot;&gt;Tagging tools&lt;/h2&gt;
+
+&lt;h3 id=&quot;vott-visual-object-tagging-tool&quot;&gt;&lt;a href=&quot;https://github.com/Microsoft/VoTT&quot;&gt;VoTT: Visual Object Tagging Tool&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;It works on mp4 videos only. You can use ffmpeg to convert videos from other formats.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; 910-911.avi 910-911.mp4&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Thesis</title><link href="http://localhost:4000/docs/thesis" rel="alternate" type="text/html" title="Thesis" /><published>2018-09-14T00:00:00-05:00</published><updated>2018-09-14T00:00:00-05:00</updated><id>http://localhost:4000/docs/thesis</id><content type="html" xml:base="http://localhost:4000/docs/thesis">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#objectives&quot; id=&quot;markdown-toc-objectives&quot;&gt;Objectives&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#papers&quot; id=&quot;markdown-toc-papers&quot;&gt;Papers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;objectives&quot;&gt;Objectives&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;General objective&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Desarrollar un sistema para el conteo de vehículos que utilice como entrada secuencias de vídeo y esté basado en técnicas de visión por computador y aprendizaje de máquina&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specific objectives&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo&lt;/em&gt;.&lt;a href=&quot;https://drive.google.com/file/d/1BAOztft7zEb66gsbxU6F2e7b8JTXoic-/view?usp=sharing&quot;&gt;Definition of robustness&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Diseñar e implementar un método para la detección de vehículos en imágenes tomadas de cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Diseñar e implementar un método para el seguimiento de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Desarrollar un sistema de software que integre los métodos de detección y seguimiento para el conteo de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Evaluar el sistema en un conjunto de videos recolectados desde cámaras de vigilancia de la Secretaría de Movilidad de Bogotá&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;papers&quot;&gt;Papers&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing&quot;&gt;State of art&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Problem definition and justification</title><link href="http://localhost:4000/docs/problem-definition-justification" rel="alternate" type="text/html" title="Problem definition and justification" /><published>2018-08-28T00:00:00-05:00</published><updated>2018-08-28T00:00:00-05:00</updated><id>http://localhost:4000/docs/problem-definition-justification</id><content type="html" xml:base="http://localhost:4000/docs/problem-definition-justification">&lt;h1 id=&quot;problem-definition&quot;&gt;Problem definition&lt;/h1&gt;
+
+&lt;h1 id=&quot;justification&quot;&gt;Justification&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1BAOztft7zEb66gsbxU6F2e7b8JTXoic-/view?usp=sharing&quot;&gt;Definition of robustness&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo.&lt;/p&gt;</content><author><name></name></author><summary type="html">Problem definition</summary></entry></feed>
