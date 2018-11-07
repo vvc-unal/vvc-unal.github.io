@@ -11,7 +11,9 @@ categories: docs dev
 
 ## 2018-10-31
 
-Annotated videos using Faster R-CNN only. [Paper](https://drive.google.com/file/d/1XcEIwkHXaL7uiuAG5NWoJDpYRzSCsPRL/view?usp=sharing)
+Annotated videos using Faster R-CNN only.
+* [Annotations](/assets/zip/2018-10-31 annotations.zip)
+* [Paper][paper-2018-10-31]
 
 **CL 53 X CRA 60 910-911**
 
@@ -23,8 +25,13 @@ Annotated videos using Faster R-CNN only. [Paper](https://drive.google.com/file/
 
 **CL 26 X CRA 33 600-610**
 
-{% youtube 8t2GA3wEhd4 560 315 %}
+{% youtube 8t2GA3wEhd4 %}
 
 ## 2018-09-17
 
-[Paper](https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing)
+[Paper][paper-2018-09-17]
+
+
+
+[paper-2018-09-17]: https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing
+[paper-2018-10-31]: https://drive.google.com/file/d/1XcEIwkHXaL7uiuAG5NWoJDpYRzSCsPRL/view?usp=sharing
