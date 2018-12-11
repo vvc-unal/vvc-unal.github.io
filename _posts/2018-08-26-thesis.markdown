@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thesis"
-date:   2018-09-14 00:00:00 -0500
+date:   2018-12-11 12:00:00 -0500
 categories: docs
 ---
 
@@ -16,7 +16,7 @@ categories: docs
 
 **Specific objectives**
 
-1. *Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo*.[Definition of robustness][robustness]
+1. *Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo*
 
 2. *Diseñar e implementar un método para la detección de vehículos en imágenes tomadas de cámaras de vigilancia*.
 
@@ -25,10 +25,3 @@ categories: docs
 4. *Desarrollar un sistema de software que integre los métodos de detección y seguimiento para el conteo de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia*.
 
 5. *Evaluar el sistema en un conjunto de videos recolectados desde cámaras de vigilancia de la Secretaría de Movilidad de Bogotá*.
-
-## Papers
-
-[State of art][vvc-2018-2s]
-
-[robustness]: https://drive.google.com/file/d/1BAOztft7zEb66gsbxU6F2e7b8JTXoic-/view?usp=sharing
-[vvc-2018-2s]: https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing
