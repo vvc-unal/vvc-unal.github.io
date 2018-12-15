@@ -1,0 +1,6 @@
+.git/
+.sass-cache
+_site/
+.gitignore
+excluded.txt
+site_update.sh
