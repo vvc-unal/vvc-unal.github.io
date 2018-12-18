@@ -1,35 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-15T16:29:51-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Thesis</title><link href="http://localhost:4000/docs/thesis" rel="alternate" type="text/html" title="Thesis" /><published>2018-12-11T12:00:00-05:00</published><updated>2018-12-11T12:00:00-05:00</updated><id>http://localhost:4000/docs/thesis</id><content type="html" xml:base="http://localhost:4000/docs/thesis">&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#objectives&quot; id=&quot;markdown-toc-objectives&quot;&gt;Objectives&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;objectives&quot;&gt;Objectives&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;General objective&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Desarrollar un sistema para el conteo de vehículos que utilice como entrada secuencias de vídeo y esté basado en técnicas de visión por computador y aprendizaje de máquina&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Specific objectives&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Diseñar e implementar un método para la detección de vehículos en imágenes tomadas de cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Diseñar e implementar un método para el seguimiento de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Desarrollar un sistema de software que integre los métodos de detección y seguimiento para el conteo de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Evaluar el sistema en un conjunto de videos recolectados desde cámaras de vigilancia de la Secretaría de Movilidad de Bogotá&lt;/em&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Results (so far)</title><link href="http://localhost:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2018-10-31T12:00:00-05:00</published><updated>2018-10-31T12:00:00-05:00</updated><id>http://localhost:4000/docs/dev/results</id><content type="html" xml:base="http://localhost:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-18T11:37:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://localhost:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2018-12-18T08:00:00-05:00</published><updated>2018-12-18T08:00:00-05:00</updated><id>http://localhost:4000/docs/dev/results</id><content type="html" xml:base="http://localhost:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#2018-12-18&quot; id=&quot;markdown-toc-2018-12-18&quot;&gt;2018-12-18&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2018-10-31&quot; id=&quot;markdown-toc-2018-10-31&quot;&gt;2018-10-31&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2018-09-17&quot; id=&quot;markdown-toc-2018-09-17&quot;&gt;2018-09-17&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;2018-12-18&quot;&gt;2018-12-18&lt;/h2&gt;
+&lt;p&gt;Implement a naive tracker.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1dIqF3gFfvuf8E85TcLlNU5Rxu6tqEMGL/view?usp=sharing&quot;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CL 53 X CRA 60 910-911&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qTzkqokfKio&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;CRA 7 X CL 45 955-959&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dQ5FhhIMXU8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;2018-10-31&quot;&gt;2018-10-31&lt;/h2&gt;
 
@@ -59,7 +50,35 @@
 
 &lt;h2 id=&quot;2018-09-17&quot;&gt;2018-09-17&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Deep learning resources</title><link href="http://localhost:4000/others/resources" rel="alternate" type="text/html" title="Deep learning resources" /><published>2018-10-05T00:28:34-05:00</published><updated>2018-10-05T00:28:34-05:00</updated><id>http://localhost:4000/others/resources</id><content type="html" xml:base="http://localhost:4000/others/resources">&lt;!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 --&gt;
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing&quot;&gt;Paper&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Thesis</title><link href="http://localhost:4000/docs/thesis" rel="alternate" type="text/html" title="Thesis" /><published>2018-12-11T12:00:00-05:00</published><updated>2018-12-11T12:00:00-05:00</updated><id>http://localhost:4000/docs/thesis</id><content type="html" xml:base="http://localhost:4000/docs/thesis">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#objectives&quot; id=&quot;markdown-toc-objectives&quot;&gt;Objectives&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;objectives&quot;&gt;Objectives&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;General objective&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Desarrollar un sistema para el conteo de vehículos que utilice como entrada secuencias de vídeo y esté basado en técnicas de visión por computador y aprendizaje de máquina&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specific objectives&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Determinar las características que definen la robustez de un método de detección cuando la perspectiva de los vehículo es cambia en cada secuencia de vídeo&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Diseñar e implementar un método para la detección de vehículos en imágenes tomadas de cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Diseñar e implementar un método para el seguimiento de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Desarrollar un sistema de software que integre los métodos de detección y seguimiento para el conteo de vehículos en secuencias de vídeo tomadas por cámaras de vigilancia&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Evaluar el sistema en un conjunto de videos recolectados desde cámaras de vigilancia de la Secretaría de Movilidad de Bogotá&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Deep learning resources</title><link href="http://localhost:4000/others/resources" rel="alternate" type="text/html" title="Deep learning resources" /><published>2018-10-05T00:28:34-05:00</published><updated>2018-10-05T00:28:34-05:00</updated><id>http://localhost:4000/others/resources</id><content type="html" xml:base="http://localhost:4000/others/resources">&lt;!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 --&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#commercial-software&quot;&gt;Commercial software&lt;/a&gt;&lt;/li&gt;
