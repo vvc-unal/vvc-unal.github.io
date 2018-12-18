@@ -1,13 +1,25 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2018-10-31 12:00:00 -0500
+date:   2018-12-18 08:00:00 -0500
 categories: docs dev
 ---
 
 * TOC
 {:toc}
 
+
+## 2018-12-18
+Implement a naive tracker.
+* [Paper][paper-2018-12-18]
+
+**CL 53 X CRA 60 910-911**
+
+{% youtube qTzkqokfKio %}
+
+**CRA 7 X CL 45 955-959**
+
+{% youtube dQ5FhhIMXU8 %}
 
 ## 2018-10-31
 
@@ -33,5 +45,6 @@ Annotated videos using Faster R-CNN only.
 
 
 
-[paper-2018-09-17]: https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing
-[paper-2018-10-31]: https://drive.google.com/file/d/1XcEIwkHXaL7uiuAG5NWoJDpYRzSCsPRL/view?usp=sharing
+[paper-2018-09-17]:https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing
+[paper-2018-10-31]:https://drive.google.com/file/d/1XcEIwkHXaL7uiuAG5NWoJDpYRzSCsPRL/view?usp=sharing
+[paper-2018-12-18]:https://drive.google.com/file/d/1dIqF3gFfvuf8E85TcLlNU5Rxu6tqEMGL/view?usp=sharing
