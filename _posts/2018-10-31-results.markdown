@@ -1,13 +1,16 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2018-12-18 08:00:00 -0500
+date:   2019-03-04 11:00:00 -0500
 categories: docs dev
 ---
 
 * TOC
 {:toc}
 
+## 2019-03-04
+Counting performance .
+* [Paper][paper-2019-03-04]
 
 ## 2018-12-18
 Implement a naive tracker.
@@ -48,3 +51,4 @@ Annotated videos using Faster R-CNN only.
 [paper-2018-09-17]:https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing
 [paper-2018-10-31]:https://drive.google.com/file/d/1XcEIwkHXaL7uiuAG5NWoJDpYRzSCsPRL/view?usp=sharing
 [paper-2018-12-18]:https://drive.google.com/file/d/1dIqF3gFfvuf8E85TcLlNU5Rxu6tqEMGL/view?usp=sharing
+[paper-2019-03-04]:https://drive.google.com/file/d/1rXhT4ALRdnD5Srl43otiGjZvSjGWu7lr/view?usp=sharing
