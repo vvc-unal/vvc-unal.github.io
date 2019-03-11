@@ -1,16 +1,31 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2019-03-04 11:00:00 -0500
+date:   2019-03-11 13:00:00 -0500
 categories: docs dev
 ---
 
 * TOC
 {:toc}
 
+## 2019-03-11
+Compare YOLOv3 and Faster R-CNN with retraining.
+
+![Average counting precision](/assets/img/mean_precision.png)
+
+![Average frame time](/assets/img/avg_time.png)
+
+![FPS](/assets/img/fps.png)
+
+**CL 53 X CRA 60 910-911**
+
+{% youtube 3oVnT4x4FkA %}
+
+
 ## 2019-03-04
-Counting performance .
+Counting performance.
 * [Paper][paper-2019-03-04]
+
 
 ## 2018-12-18
 Implement a naive tracker.
