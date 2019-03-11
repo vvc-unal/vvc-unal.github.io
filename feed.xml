@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-04T11:58:51-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://localhost:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2019-03-04T11:00:00-05:00</published><updated>2019-03-04T11:00:00-05:00</updated><id>http://localhost:4000/docs/dev/results</id><content type="html" xml:base="http://localhost:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-11T13:18:01-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://localhost:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2019-03-11T13:00:00-05:00</published><updated>2019-03-11T13:00:00-05:00</updated><id>http://localhost:4000/docs/dev/results</id><content type="html" xml:base="http://localhost:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#2019-03-11&quot; id=&quot;markdown-toc-2019-03-11&quot;&gt;2019-03-11&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2019-03-04&quot; id=&quot;markdown-toc-2019-03-04&quot;&gt;2019-03-04&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2018-12-18&quot; id=&quot;markdown-toc-2018-12-18&quot;&gt;2018-12-18&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2018-10-31&quot; id=&quot;markdown-toc-2018-10-31&quot;&gt;2018-10-31&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2018-09-17&quot; id=&quot;markdown-toc-2018-09-17&quot;&gt;2018-09-17&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;2019-03-11&quot;&gt;2019-03-11&lt;/h2&gt;
+&lt;p&gt;Compare YOLOv3 and Faster R-CNN with retraining.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/mean_precision.png&quot; alt=&quot;Average counting precision&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/avg_time.png&quot; alt=&quot;Average frame time&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/fps.png&quot; alt=&quot;FPS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CL 53 X CRA 60 910-911&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3oVnT4x4FkA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&quot;2019-03-04&quot;&gt;2019-03-04&lt;/h2&gt;
-&lt;p&gt;Counting performance .&lt;/p&gt;
+&lt;p&gt;Counting performance.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1rXhT4ALRdnD5Srl43otiGjZvSjGWu7lr/view?usp=sharing&quot;&gt;Paper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
