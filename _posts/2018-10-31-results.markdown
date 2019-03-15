@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Results (so far)"
+date:   2019-03-15 08:00:00 -0500
+categories: docs dev
+---
+
+* TOC
+{:toc}
+
+## Comparison
+Compare YOLOv3 and Faster R-CNN with retraining.
+
+![Average counting precision](/assets/img/avg_precision.png)
+
+![Average frame time](/assets/img/avg_time.png)
+
+![FPS](/assets/img/fps.png)
+
+## Videos
+
+
+### YOLOv3
+
+**CL 53 X CRA 60 910-911**
+
+{% youtube Un-ZmPRrq58 %}
+
+**CL 26 X CRA 33 600-610**
+
+{% youtube iyaHutGxql0 %}
+
+
+### Faster R-CNN
+
+**CL 53 X CRA 60 910-911**
+
+{% youtube qTzkqokfKio %}
+
+**CRA 7 X CL 45 955-959**
+
+{% youtube dQ5FhhIMXU8 %}
