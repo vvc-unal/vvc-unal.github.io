@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-15T09:49:33-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://localhost:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2019-03-15T08:00:00-05:00</published><updated>2019-03-15T08:00:00-05:00</updated><id>http://localhost:4000/docs/dev/results</id><content type="html" xml:base="http://localhost:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-15T09:54:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://localhost:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2019-03-15T08:00:00-05:00</published><updated>2019-03-15T08:00:00-05:00</updated><id>http://localhost:4000/docs/dev/results</id><content type="html" xml:base="http://localhost:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#comparison&quot; id=&quot;markdown-toc-comparison&quot;&gt;Comparison&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#videos&quot; id=&quot;markdown-toc-videos&quot;&gt;Videos&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#yolov3&quot; id=&quot;markdown-toc-yolov3&quot;&gt;YOLOv3&lt;/a&gt;&lt;/li&gt;
@@ -24,6 +24,12 @@
 
 &lt;div&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Un-ZmPRrq58&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;CRA 7 X CL 45 955-959&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DNsR5oIyKPo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;CL 26 X CRA 33 600-610&lt;/strong&gt;&lt;/p&gt;
