@@ -1,35 +1,37 @@
 ---
 layout: post
 title:  "Results (so far)"
-date:   2019-03-11 13:00:00 -0500
+date:   2019-03-15 08:00:00 -0500
 categories: docs dev
 ---
 
 * TOC
 {:toc}
 
-## 2019-03-11
+## Comparison
 Compare YOLOv3 and Faster R-CNN with retraining.
 
-![Average counting precision](/assets/img/mean_precision.png)
+![Average counting precision](/assets/img/avg_precision.png)
 
 ![Average frame time](/assets/img/avg_time.png)
 
 ![FPS](/assets/img/fps.png)
 
+## Videos
+
+
+### YOLOv3
+
 **CL 53 X CRA 60 910-911**
 
-{% youtube 3oVnT4x4FkA %}
+{% youtube Un-ZmPRrq58 %}
+
+**CL 26 X CRA 33 600-610**
+
+{% youtube iyaHutGxql0 %}
 
 
-## 2019-03-04
-Counting performance.
-* [Paper][paper-2019-03-04]
-
-
-## 2018-12-18
-Implement a naive tracker.
-* [Paper][paper-2018-12-18]
+### Faster R-CNN
 
 **CL 53 X CRA 60 910-911**
 
@@ -38,32 +40,3 @@ Implement a naive tracker.
 **CRA 7 X CL 45 955-959**
 
 {% youtube dQ5FhhIMXU8 %}
-
-## 2018-10-31
-
-Annotated videos using Faster R-CNN only.
-* [Annotations](/assets/zip/2018-10-31 annotations.zip)
-* [Paper][paper-2018-10-31]
-
-**CL 53 X CRA 60 910-911**
-
-{% youtube AyXqQw5c6RE %}
-
-**CRA 7 X CL 45 955-959**
-
-{% youtube xZFrtq9OkA4 %}
-
-**CL 26 X CRA 33 600-610**
-
-{% youtube 8t2GA3wEhd4 %}
-
-## 2018-09-17
-
-[Paper][paper-2018-09-17]
-
-
-
-[paper-2018-09-17]:https://drive.google.com/file/d/1CiPz26oMLvjL3tzKRIznN_no4SJ__vda/view?usp=sharing
-[paper-2018-10-31]:https://drive.google.com/file/d/1XcEIwkHXaL7uiuAG5NWoJDpYRzSCsPRL/view?usp=sharing
-[paper-2018-12-18]:https://drive.google.com/file/d/1dIqF3gFfvuf8E85TcLlNU5Rxu6tqEMGL/view?usp=sharing
-[paper-2019-03-04]:https://drive.google.com/file/d/1rXhT4ALRdnD5Srl43otiGjZvSjGWu7lr/view?usp=sharing
