@@ -9,15 +9,15 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos." />
 <meta property="og:description" content="Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos." />
-<link rel="canonical" href="https://vvc-unal.github.io/docs/dev/results" />
-<meta property="og:url" content="https://vvc-unal.github.io/docs/dev/results" />
+<link rel="canonical" href="http://vvc.github.io:4000/docs/dev/results" />
+<meta property="og:url" content="http://vvc.github.io:4000/docs/dev/results" />
 <meta property="og:site_name" content="Visual Vehicle Counting with machine learning" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-07-18T22:00:00-05:00" />
+<meta property="article:published_time" content="2019-11-04T22:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.","@type":"BlogPosting","url":"https://vvc-unal.github.io/docs/dev/results","headline":"Results (so far)","dateModified":"2019-07-18T22:00:00-05:00","datePublished":"2019-07-18T22:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://vvc-unal.github.io/docs/dev/results"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://vvc.github.io:4000/docs/dev/results","headline":"Results (so far)","dateModified":"2019-11-04T22:00:00-05:00","datePublished":"2019-11-04T22:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://vvc.github.io:4000/docs/dev/results"},"description":"Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://vvc-unal.github.io/feed.xml" title="Visual Vehicle Counting with machine learning" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://vvc.github.io:4000/feed.xml" title="Visual Vehicle Counting with machine learning" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Visual Vehicle Counting with machine learning</a><nav class="site-nav">
@@ -40,7 +40,7 @@
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Results (so far)</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2019-07-18T22:00:00-05:00" itemprop="datePublished">Jul 18, 2019
+      <time class="dt-published" datetime="2019-11-04T22:00:00-05:00" itemprop="datePublished">Nov 4, 2019
       </time></p>
   </header>
 
@@ -50,9 +50,9 @@
       <li><a href="#custom-models-based-on-yolov3" id="markdown-toc-custom-models-based-on-yolov3">Custom models based on YOLOv3</a></li>
     </ul>
   </li>
+  <li><a href="#tracking-metrics" id="markdown-toc-tracking-metrics">Tracking metrics</a></li>
   <li><a href="#videos" id="markdown-toc-videos">Videos</a>    <ul>
       <li><a href="#tiny-yolo" id="markdown-toc-tiny-yolo">Tiny YOLO</a></li>
-      <li><a href="#yolov3" id="markdown-toc-yolov3">YOLOv3</a></li>
       <li><a href="#faster-r-cnn" id="markdown-toc-faster-r-cnn">Faster R-CNN</a></li>
     </ul>
   </li>
@@ -77,6 +77,231 @@
 
 <p><a href="/assets/img/architecture_vvc3.png">vvc3</a></p>
 
+<h2 id="tracking-metrics">Tracking metrics</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>CL 53 X CRA 60 910-911</th>
+      <th style="text-align: right">IDF1</th>
+      <th style="text-align: right">IDP</th>
+      <th style="text-align: right">IDR</th>
+      <th style="text-align: right">Rcll</th>
+      <th style="text-align: right">Prcn</th>
+      <th style="text-align: right">GT</th>
+      <th style="text-align: right">MT</th>
+      <th style="text-align: right">PT</th>
+      <th style="text-align: right">ML</th>
+      <th style="text-align: right">FP</th>
+      <th style="text-align: right">FN</th>
+      <th style="text-align: right">IDs</th>
+      <th style="text-align: right">FM</th>
+      <th style="text-align: right">MOTA</th>
+      <th style="text-align: right">MOTP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>frcnn-resnet50</td>
+      <td style="text-align: right">0.9%</td>
+      <td style="text-align: right">0.5%</td>
+      <td style="text-align: right">5.2%</td>
+      <td style="text-align: right">9.6%</td>
+      <td style="text-align: right">0.9%</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">9320</td>
+      <td style="text-align: right">763</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">-1095.4%</td>
+      <td style="text-align: right">301</td>
+    </tr>
+    <tr>
+      <td>frcnn-resnet50-transfer</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right"><strong>1503</strong></td>
+      <td style="text-align: right">844</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right"><strong>-178.1%</strong></td>
+      <td style="text-align: right">nan</td>
+    </tr>
+    <tr>
+      <td>YOLOv3</td>
+      <td style="text-align: right">2.2%</td>
+      <td style="text-align: right"><strong>1.2%</strong></td>
+      <td style="text-align: right"><strong>32.1%</strong></td>
+      <td style="text-align: right"><strong>47.7%</strong></td>
+      <td style="text-align: right">1.7%</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">23023</td>
+      <td style="text-align: right">441</td>
+      <td style="text-align: right">16</td>
+      <td style="text-align: right">15</td>
+      <td style="text-align: right">-2682.0%</td>
+      <td style="text-align: right">265</td>
+    </tr>
+    <tr>
+      <td>YOLOv3-transfer</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">4483</td>
+      <td style="text-align: right">844</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">-531.2%</td>
+      <td style="text-align: right">nan</td>
+    </tr>
+    <tr>
+      <td>yolo3-prunned</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">0.0%</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">1518</td>
+      <td style="text-align: right">844</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">-179.9%</td>
+      <td style="text-align: right">nan</td>
+    </tr>
+    <tr>
+      <td>YOLOv3-tiny</td>
+      <td style="text-align: right">1.0%</td>
+      <td style="text-align: right">0.5%</td>
+      <td style="text-align: right">6.5%</td>
+      <td style="text-align: right">11.0%</td>
+      <td style="text-align: right">0.9%</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">10148</td>
+      <td style="text-align: right">751</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">11</td>
+      <td style="text-align: right"><strong>-1192.1%</strong></td>
+      <td style="text-align: right">329</td>
+    </tr>
+    <tr>
+      <td>YOLOv3-tiny-transfer</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan</td>
+    </tr>
+    <tr>
+      <td>vvc1-yolov3</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan</td>
+    </tr>
+    <tr>
+      <td>vvc2-yolov3</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan</td>
+    </tr>
+    <tr>
+      <td>vvc3-yolov3</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">None</td>
+      <td style="text-align: right">nan%</td>
+      <td style="text-align: right">nan</td>
+    </tr>
+    <tr>
+      <td>RetinaNet-ResNet50</td>
+      <td style="text-align: right"><strong>2.3%</strong></td>
+      <td style="text-align: right"><strong>1.2%</strong></td>
+      <td style="text-align: right">26.8%</td>
+      <td style="text-align: right">40.8%</td>
+      <td style="text-align: right"><strong>1.8%</strong></td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">18741</td>
+      <td style="text-align: right"><strong>500</strong></td>
+      <td style="text-align: right">8</td>
+      <td style="text-align: right">7</td>
+      <td style="text-align: right">-2180.7%</td>
+      <td style="text-align: right">193</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="videos">Videos</h2>
 
 <h3 id="tiny-yolo">Tiny YOLO</h3>
@@ -98,8 +323,6 @@
 <div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_RhFN6suBhI" frameborder="0" allowfullscreen=""></iframe>
 </div>
-
-<h3 id="yolov3">YOLOv3</h3>
 
 <p><strong>CL 53 X CRA 60 910-911</strong></p>
 
