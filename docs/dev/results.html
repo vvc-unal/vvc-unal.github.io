@@ -13,9 +13,9 @@
 <meta property="og:url" content="http://vvc.github.io:4000/docs/dev/results" />
 <meta property="og:site_name" content="Visual Vehicle Counting with machine learning" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-11-04T22:00:00-05:00" />
+<meta property="article:published_time" content="2019-11-18T21:00:00-05:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://vvc.github.io:4000/docs/dev/results","headline":"Results (so far)","dateModified":"2019-11-04T22:00:00-05:00","datePublished":"2019-11-04T22:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://vvc.github.io:4000/docs/dev/results"},"description":"Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://vvc.github.io:4000/docs/dev/results","headline":"Results (so far)","dateModified":"2019-11-18T21:00:00-05:00","datePublished":"2019-11-18T21:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://vvc.github.io:4000/docs/dev/results"},"description":"Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://vvc.github.io:4000/feed.xml" title="Visual Vehicle Counting with machine learning" /></head>
 <body><header class="site-header" role="banner">
@@ -40,7 +40,7 @@
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Results (so far)</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2019-11-04T22:00:00-05:00" itemprop="datePublished">Nov 4, 2019
+      <time class="dt-published" datetime="2019-11-18T21:00:00-05:00" itemprop="datePublished">Nov 18, 2019
       </time></p>
   </header>
 
@@ -52,8 +52,8 @@
   </li>
   <li><a href="#tracking-metrics" id="markdown-toc-tracking-metrics">Tracking metrics</a></li>
   <li><a href="#videos" id="markdown-toc-videos">Videos</a>    <ul>
-      <li><a href="#tiny-yolo" id="markdown-toc-tiny-yolo">Tiny YOLO</a></li>
-      <li><a href="#faster-r-cnn" id="markdown-toc-faster-r-cnn">Faster R-CNN</a></li>
+      <li><a href="#retinanet" id="markdown-toc-retinanet">RetinaNet</a></li>
+      <li><a href="#vvc3-yolo" id="markdown-toc-vvc3-yolo">VVC3 YOLO</a></li>
     </ul>
   </li>
 </ul>
@@ -82,278 +82,266 @@
 <table>
   <thead>
     <tr>
-      <th>CL 53 X CRA 60 910-911</th>
-      <th style="text-align: right">IDF1</th>
-      <th style="text-align: right">IDP</th>
-      <th style="text-align: right">IDR</th>
-      <th style="text-align: right">Rcll</th>
-      <th style="text-align: right">Prcn</th>
-      <th style="text-align: right">GT</th>
-      <th style="text-align: right">MT</th>
-      <th style="text-align: right">PT</th>
-      <th style="text-align: right">ML</th>
-      <th style="text-align: right">FP</th>
-      <th style="text-align: right">FN</th>
-      <th style="text-align: right">IDs</th>
-      <th style="text-align: right">FM</th>
-      <th style="text-align: right">MOTA</th>
-      <th style="text-align: right">MOTP</th>
+      <th>Detector</th>
+      <th>Tracker</th>
+      <th>IDF1</th>
+      <th>IDP</th>
+      <th>IDR</th>
+      <th>Rcll</th>
+      <th>Prcn</th>
+      <th>GT</th>
+      <th>MT</th>
+      <th>PT</th>
+      <th>ML</th>
+      <th>FP</th>
+      <th>FN</th>
+      <th>IDs</th>
+      <th>FM</th>
+      <th>MOTA</th>
+      <th>MOTP</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>frcnn-resnet50</td>
-      <td style="text-align: right">0.9%</td>
-      <td style="text-align: right">0.5%</td>
-      <td style="text-align: right">5.2%</td>
-      <td style="text-align: right">9.6%</td>
-      <td style="text-align: right">0.9%</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">2</td>
-      <td style="text-align: right">4</td>
-      <td style="text-align: right">9320</td>
-      <td style="text-align: right">763</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">5</td>
-      <td style="text-align: right">-1095.4%</td>
-      <td style="text-align: right">301</td>
+      <td>PatientIOU</td>
+      <td>3,0%</td>
+      <td>16,3%</td>
+      <td>1,6%</td>
+      <td>3,0%</td>
+      <td>29,8%</td>
+      <td>15</td>
+      <td>0</td>
+      <td>2</td>
+      <td>13</td>
+      <td>73</td>
+      <td>1007</td>
+      <td>11</td>
+      <td>10</td>
+      <td>-5,1%</td>
+      <td>376</td>
     </tr>
     <tr>
       <td>frcnn-resnet50-transfer</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right"><strong>1503</strong></td>
-      <td style="text-align: right">844</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right"><strong>-178.1%</strong></td>
-      <td style="text-align: right">nan</td>
+      <td>PatientIOU</td>
+      <td>5,6%</td>
+      <td>23,2%</td>
+      <td>3,2%</td>
+      <td>6,6%</td>
+      <td>48,6%</td>
+      <td>15</td>
+      <td>1</td>
+      <td>3</td>
+      <td>11</td>
+      <td>73</td>
+      <td>969</td>
+      <td>18</td>
+      <td>14</td>
+      <td>-2,1%</td>
+      <td>376</td>
     </tr>
     <tr>
       <td>YOLOv3</td>
-      <td style="text-align: right">2.2%</td>
-      <td style="text-align: right"><strong>1.2%</strong></td>
-      <td style="text-align: right"><strong>32.1%</strong></td>
-      <td style="text-align: right"><strong>47.7%</strong></td>
-      <td style="text-align: right">1.7%</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">23023</td>
-      <td style="text-align: right">441</td>
-      <td style="text-align: right">16</td>
-      <td style="text-align: right">15</td>
-      <td style="text-align: right">-2682.0%</td>
-      <td style="text-align: right">265</td>
+      <td>PatientIOU</td>
+      <td>5,2%</td>
+      <td>7,5%</td>
+      <td>3,9%</td>
+      <td>9,2%</td>
+      <td>17,3%</td>
+      <td>15</td>
+      <td>1</td>
+      <td>3</td>
+      <td>11</td>
+      <td>454</td>
+      <td>943</td>
+      <td>25</td>
+      <td>19</td>
+      <td>-37,0%</td>
+      <td>367</td>
     </tr>
     <tr>
       <td>YOLOv3-transfer</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">4483</td>
-      <td style="text-align: right">844</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">-531.2%</td>
-      <td style="text-align: right">nan</td>
+      <td>PatientIOU</td>
+      <td>3,8%</td>
+      <td>7,5%</td>
+      <td>2,5%</td>
+      <td>4,4%</td>
+      <td>13,3%</td>
+      <td>15</td>
+      <td>0</td>
+      <td>2</td>
+      <td>13</td>
+      <td>299</td>
+      <td>992</td>
+      <td>15</td>
+      <td>11</td>
+      <td>-25,8%</td>
+      <td>415</td>
     </tr>
     <tr>
       <td>yolo3-prunned</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">0.0%</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">1518</td>
-      <td style="text-align: right">844</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">-179.9%</td>
-      <td style="text-align: right">nan</td>
+      <td>PatientIOU</td>
+      <td>0,0%</td>
+      <td>0,0%</td>
+      <td>0,0%</td>
+      <td>0,0%</td>
+      <td>0,0%</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>15</td>
+      <td>59</td>
+      <td>1038</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-5,7%</td>
+      <td> </td>
     </tr>
     <tr>
       <td>YOLOv3-tiny</td>
-      <td style="text-align: right">1.0%</td>
-      <td style="text-align: right">0.5%</td>
-      <td style="text-align: right">6.5%</td>
-      <td style="text-align: right">11.0%</td>
-      <td style="text-align: right">0.9%</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">1</td>
-      <td style="text-align: right">5</td>
-      <td style="text-align: right">10148</td>
-      <td style="text-align: right">751</td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">11</td>
-      <td style="text-align: right"><strong>-1192.1%</strong></td>
-      <td style="text-align: right">329</td>
+      <td>PatientIOU</td>
+      <td>3,2%</td>
+      <td>19,4%</td>
+      <td>1,7%</td>
+      <td>3,1%</td>
+      <td>34,4%</td>
+      <td>15</td>
+      <td>0</td>
+      <td>2</td>
+      <td>13</td>
+      <td>61</td>
+      <td>1006</td>
+      <td>8</td>
+      <td>7</td>
+      <td>-3,6%</td>
+      <td>378</td>
     </tr>
     <tr>
       <td>YOLOv3-tiny-transfer</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan</td>
+      <td>PatientIOU</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>vvc1-yolov3</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan</td>
+      <td>PatientIOU</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>vvc2-yolov3</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan</td>
+      <td>PatientIOU</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>vvc3-yolov3</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">None</td>
-      <td style="text-align: right">nan%</td>
-      <td style="text-align: right">nan</td>
+      <td>PatientIOU</td>
+      <td>0,2%</td>
+      <td>16,7%</td>
+      <td>0,1%</td>
+      <td>0,1%</td>
+      <td>16,7%</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>15</td>
+      <td>5</td>
+      <td>1037</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-0,4%</td>
+      <td>306</td>
     </tr>
     <tr>
       <td>RetinaNet-ResNet50</td>
-      <td style="text-align: right"><strong>2.3%</strong></td>
-      <td style="text-align: right"><strong>1.2%</strong></td>
-      <td style="text-align: right">26.8%</td>
-      <td style="text-align: right">40.8%</td>
-      <td style="text-align: right"><strong>1.8%</strong></td>
-      <td style="text-align: right">6</td>
-      <td style="text-align: right">0</td>
-      <td style="text-align: right">5</td>
-      <td style="text-align: right">1</td>
-      <td style="text-align: right">18741</td>
-      <td style="text-align: right"><strong>500</strong></td>
-      <td style="text-align: right">8</td>
-      <td style="text-align: right">7</td>
-      <td style="text-align: right">-2180.7%</td>
-      <td style="text-align: right">193</td>
+      <td>PatientIOU</td>
+      <td>10,8%</td>
+      <td>23,1%</td>
+      <td>7,0%</td>
+      <td>12,3%</td>
+      <td>40,5%</td>
+      <td>15</td>
+      <td>1</td>
+      <td>4</td>
+      <td>10</td>
+      <td>188</td>
+      <td>910</td>
+      <td>15</td>
+      <td>13</td>
+      <td>-7,2%</td>
+      <td>339</td>
     </tr>
   </tbody>
 </table>
 
 <h2 id="videos">Videos</h2>
 
-<h3 id="tiny-yolo">Tiny YOLO</h3>
+<h3 id="retinanet">RetinaNet</h3>
 
-<p><strong>CL 53 X CRA 60 910-911</strong></p>
-
-<div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bw3GUPoz7tg" frameborder="0" allowfullscreen=""></iframe>
-</div>
-
-<p><strong>CRA 7 X CL 45 955-959</strong></p>
+<p><strong>MOV_0861</strong></p>
 
 <div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qXporB3VfEs" frameborder="0" allowfullscreen=""></iframe>
-</div>
-
-<p><strong>CL 26 X CRA 33 600-610</strong></p>
-
-<div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_RhFN6suBhI" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HThOxUQf288" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
 <p><strong>CL 53 X CRA 60 910-911</strong></p>
 
 <div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YtcOaZyLoPk" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r8R_OnOATAA" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
-<p><strong>CRA 7 X CL 45 955-959</strong></p>
+<h3 id="vvc3-yolo">VVC3 YOLO</h3>
+
+<p><strong>MOV_0861</strong></p>
 
 <div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rVnDd3HY8TQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_cLdLE79Vz0" frameborder="0" allowfullscreen=""></iframe>
 </div>
-
-<p><strong>CL 26 X CRA 33 600-610</strong></p>
-
-<div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9Kn3vY5w8Rw" frameborder="0" allowfullscreen=""></iframe>
-</div>
-
-<h3 id="faster-r-cnn">Faster R-CNN</h3>
 
 <p><strong>CL 53 X CRA 60 910-911</strong></p>
 
 <div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qTzkqokfKio" frameborder="0" allowfullscreen=""></iframe>
-</div>
-
-<p><strong>CRA 7 X CL 45 955-959</strong></p>
-
-<div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQ5FhhIMXU8" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZdKkqdELNfs" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
 
