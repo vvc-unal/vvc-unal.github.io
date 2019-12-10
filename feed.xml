@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://vvc.github.io:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://vvc.github.io:4000/" rel="alternate" type="text/html" /><updated>2019-11-18T21:16:46-05:00</updated><id>http://vvc.github.io:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://vvc.github.io:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2019-11-18T21:00:00-05:00</published><updated>2019-11-18T21:00:00-05:00</updated><id>http://vvc.github.io:4000/docs/dev/results</id><content type="html" xml:base="http://vvc.github.io:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://vvc.github.io:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://vvc.github.io:4000/" rel="alternate" type="text/html" /><updated>2019-12-09T22:54:09-05:00</updated><id>http://vvc.github.io:4000/feed.xml</id><title type="html">Visual Vehicle Counting with machine learning</title><subtitle>Visual vehicle counting applied research project, based on machine learning and computer vision techniques. Object detection and tracking from videos.</subtitle><entry><title type="html">Results (so far)</title><link href="http://vvc.github.io:4000/docs/dev/results" rel="alternate" type="text/html" title="Results (so far)" /><published>2019-12-09T22:00:00-05:00</published><updated>2019-12-09T22:00:00-05:00</updated><id>http://vvc.github.io:4000/docs/dev/results</id><content type="html" xml:base="http://vvc.github.io:4000/docs/dev/results">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#comparison&quot; id=&quot;markdown-toc-comparison&quot;&gt;Comparison&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#custom-models-based-on-yolov3&quot; id=&quot;markdown-toc-custom-models-based-on-yolov3&quot;&gt;Custom models based on YOLOv3&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tracking-metrics&quot; id=&quot;markdown-toc-tracking-metrics&quot;&gt;Tracking metrics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tracking&quot; id=&quot;markdown-toc-tracking&quot;&gt;Tracking&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#videos&quot; id=&quot;markdown-toc-videos&quot;&gt;Videos&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#retinanet&quot; id=&quot;markdown-toc-retinanet&quot;&gt;RetinaNet&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#vvc3-yolo&quot; id=&quot;markdown-toc-vvc3-yolo&quot;&gt;VVC3 YOLO&lt;/a&gt;&lt;/li&gt;
@@ -30,7 +30,9 @@
 
 &lt;p&gt;&lt;a href=&quot;/assets/img/architecture_vvc3.png&quot;&gt;vvc3&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;tracking-metrics&quot;&gt;Tracking metrics&lt;/h2&gt;
+&lt;h2 id=&quot;tracking&quot;&gt;Tracking&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/avg_fps.png&quot; alt=&quot;MOTA&quot; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -295,7 +297,27 @@
 
 &lt;div&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZdKkqdELNfs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Thesis</title><link href="http://vvc.github.io:4000/docs/thesis" rel="alternate" type="text/html" title="Thesis" /><published>2018-12-11T12:00:00-05:00</published><updated>2018-12-11T12:00:00-05:00</updated><id>http://vvc.github.io:4000/docs/thesis</id><content type="html" xml:base="http://vvc.github.io:4000/docs/thesis">&lt;ul id=&quot;markdown-toc&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Resources</title><link href="http://vvc.github.io:4000/others/resources" rel="alternate" type="text/html" title="Resources" /><published>2019-12-03T20:00:00-05:00</published><updated>2019-12-03T20:00:00-05:00</updated><id>http://vvc.github.io:4000/others/resources</id><content type="html" xml:base="http://vvc.github.io:4000/others/resources">&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#deep-learning&quot; id=&quot;markdown-toc-deep-learning&quot;&gt;Deep learning&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#commercial-software&quot; id=&quot;markdown-toc-commercial-software&quot;&gt;Commercial software&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#object-tracking&quot; id=&quot;markdown-toc-object-tracking&quot;&gt;Object tracking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;deep-learning&quot;&gt;Deep learning&lt;/h1&gt;
+
+&lt;h2 id=&quot;commercial-software&quot;&gt;Commercial software&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/rekognition/video-features/&quot;&gt;Amazon Rekognition video&lt;/a&gt;: It’s a service for object and face detection and recognition on videos. Also it can track people. To use the service you need a credit card, even for the free tier. &lt;a href=&quot;https://techcrunch.com/2018/07/26/aclu-says-amazon-facial-recognition-associated-congress-members-with-mugshots/&quot;&gt;ACLU says Amazon facial recognition associated Congress members with mugshots.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://software.intel.com/openvino-toolkit&quot;&gt;Intel OpenVINO&lt;/a&gt; (formerly the Intel Computer Vision SDK), is a toolkit that enables Deep Learning inference for Computer Vision. It only works on CPU, GPU an FPGA Intel hardware.&lt;/p&gt;
+
+&lt;h1 id=&quot;object-tracking&quot;&gt;Object tracking&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/&quot;&gt;Object Tracking using OpenCV&lt;/a&gt;. Learn to use OpenCV trackers in python.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Thesis</title><link href="http://vvc.github.io:4000/docs/thesis" rel="alternate" type="text/html" title="Thesis" /><published>2018-12-11T12:00:00-05:00</published><updated>2018-12-11T12:00:00-05:00</updated><id>http://vvc.github.io:4000/docs/thesis</id><content type="html" xml:base="http://vvc.github.io:4000/docs/thesis">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objectives&quot; id=&quot;markdown-toc-objectives&quot;&gt;Objectives&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -323,19 +345,7 @@
   &lt;li&gt;
     &lt;p&gt;&lt;em&gt;Evaluar el sistema en un conjunto de videos recolectados desde cámaras de vigilancia de la Secretaría de Movilidad de Bogotá&lt;/em&gt;.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Deep learning resources</title><link href="http://vvc.github.io:4000/others/resources" rel="alternate" type="text/html" title="Deep learning resources" /><published>2018-10-05T00:28:34-05:00</published><updated>2018-10-05T00:28:34-05:00</updated><id>http://vvc.github.io:4000/others/resources</id><content type="html" xml:base="http://vvc.github.io:4000/others/resources">&lt;!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 --&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#commercial-software&quot;&gt;Commercial software&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- /TOC --&gt;
-
-&lt;h1 id=&quot;commercial-software&quot;&gt;Commercial software&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/rekognition/video-features/&quot;&gt;Amazon Rekognition video&lt;/a&gt;: It’s a service for object and face detection and recognition on videos. Also it can track people. To use the service you need a credit card, even for the free tier. &lt;a href=&quot;https://techcrunch.com/2018/07/26/aclu-says-amazon-facial-recognition-associated-congress-members-with-mugshots/&quot;&gt;ACLU says Amazon facial recognition associated Congress members with mugshots.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://software.intel.com/openvino-toolkit&quot;&gt;Intel OpenVINO&lt;/a&gt; (formerly the Intel Computer Vision SDK), is a toolkit that enables Deep Learning inference for Computer Vision. It only works on CPU, GPU an FPGA Intel hardware.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Data sets</title><link href="http://vvc.github.io:4000/docs/dev/data-sets" rel="alternate" type="text/html" title="Data sets" /><published>2018-09-20T00:00:00-05:00</published><updated>2018-09-20T00:00:00-05:00</updated><id>http://vvc.github.io:4000/docs/dev/data-sets</id><content type="html" xml:base="http://vvc.github.io:4000/docs/dev/data-sets">&lt;ul id=&quot;markdown-toc&quot;&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Data sets</title><link href="http://vvc.github.io:4000/docs/dev/data-sets" rel="alternate" type="text/html" title="Data sets" /><published>2018-09-20T00:00:00-05:00</published><updated>2018-09-20T00:00:00-05:00</updated><id>http://vvc.github.io:4000/docs/dev/data-sets</id><content type="html" xml:base="http://vvc.github.io:4000/docs/dev/data-sets">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#bogotá-videos&quot; id=&quot;markdown-toc-bogotá-videos&quot;&gt;Bogotá videos&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#image-data-sets&quot; id=&quot;markdown-toc-image-data-sets&quot;&gt;Image data sets&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#trancos-2015&quot; id=&quot;markdown-toc-trancos-2015&quot;&gt;TRANCOS 2015&lt;/a&gt;&lt;/li&gt;
